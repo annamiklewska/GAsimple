@@ -98,7 +98,6 @@ def main():
 
         pop = new_generation
 
-        print("GENERATION: ", gen)
         print("Generation: {}\tString: {}\tFitness: {}". \
               format(gen,
                      "".join(pop[0].chromosome),
@@ -109,6 +108,7 @@ def main():
           format(gen,
                  "".join(pop[0].chromosome),
                  pop[0].fitness))
+
 
 if __name__ == '__main__':
     main()
